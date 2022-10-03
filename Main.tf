@@ -5,7 +5,7 @@ terraform {
   backend "s3" {
     bucket = "udapeople-udacityproject3"
     key    = "udapeople-udacityproject3.tfstate"
-    region = "us-east-1"
+    region = "us-east-2"
   }
 }
 
