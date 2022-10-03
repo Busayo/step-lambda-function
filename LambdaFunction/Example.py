@@ -4,5 +4,5 @@ LOGGER.setLevel(logging.INFO)
 def handler(event, context):
     LOGGER.info(f'Event Object: {event}')
     LOGGER.info(f'Context Object: {context}')
-    event['DemoChannel'] = 'CloudQuickPOCs'
+    event['DemoChannel'] = 'Step_Lambda-Function'
     return event
