@@ -7,11 +7,11 @@ data "archive_file" "init" {
 
 ## S3 Bucket	
 resource "aws_s3_bucket" "cqpocsbucket" {	
-  bucket = "quickcloudpocsbucket001"	
+  bucket = "lambda-step-function-01"	
   acl    = "private"	
 
   tags = {	
-    Name        = "cqpocsbucket-1"	
+    Name        = "lambda-step-function-01"	
   }	
 }	
 
